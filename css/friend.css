@@ -1,0 +1,13 @@
+.friend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.friend .friend__avatar {
+    width: 60px;
+    border-radius: 35%;
+}
+/* 이건 이 class를 둘 다 가진 element에 적용된다는 의미다. 띄어쓰기 X */
+.friend__avatar.g-avatar {
+    /* width: 70px; */
+}
